@@ -1,4 +1,3 @@
-```c
 #define _GNU_SOURCE
 
 #include <stdio.h>
@@ -803,4 +802,3 @@ int main(int argc, char **argv) {
     wpa_ctrl_close(ctrl);
     return 0;
 }
-```
