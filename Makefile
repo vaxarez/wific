@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -O2 -Wall -Wextra
+CFLAGS = -O2 -Wall -Wextra -Wno-stringop-truncation -Wno-format-truncation
 TARGET = wific
 SRC = wific.c
 
