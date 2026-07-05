@@ -836,7 +836,7 @@ static void handle_sigint(int sig) {
 static void print_banner(void) {
     printf("\n");
     printf("  %s+--------------------------------------+%s\n", CLR_CYAN, CLR_RESET);
-    printf("  %s|  %swific%s - One-Command WiFi Connector  %s|%s\n", 
+    printf("  %s|  %swific%s - Simple WiFi Connector  %s|%s\n", 
            CLR_CYAN, CLR_BOLD, CLR_RESET, CLR_CYAN, CLR_RESET);
     printf("  %s+--------------------------------------+%s\n", CLR_CYAN, CLR_RESET);
     printf("\n");
